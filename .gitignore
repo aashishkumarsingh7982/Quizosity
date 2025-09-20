@@ -1,0 +1,51 @@
+# React Native / Expo
+node_modules/
+.expo/
+.expo-shared/
+dist/
+web-build/
+npm-debug.*
+yarn-debug.log*
+yarn-error.log*
+
+# Android
+android/.gradle/
+android/app/build/
+*.apk
+*.aar
+*.iml
+*.keystore
+*.jks
+
+# iOS
+ios/Pods/
+ios/build/
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.pbxuser
+*.xcworkspace
+xcuserdata/
+DerivedData/
+
+# Certificates / Keys
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Expo
+expo-env.d.ts
+
+# IDE / Editor
+.vscode/
+.idea/
